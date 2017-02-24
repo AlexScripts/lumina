@@ -1,0 +1,325 @@
+/* 
+* Copyright 'The Lumina Foundation' 2016-2017 
+* Licensed under MIT License
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&subset=cyrillic|Lato:900');
+p,
+pre,
+div,
+span,
+sub,
+sup,
+a,
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Open Sans',sans-serif;
+}
+a { 
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+h1 {
+    font-family: 'Lato',sans-serif;
+}
+h2 {
+    font-weight: 700;
+}
+h3 {
+    font-weight: 500;
+}
+h4 {
+    font-weight: 400;
+}
+h5 {
+   font-weight: 300; 
+}
+h6 {
+    font-weight: 100;
+}
+.text-bolder {
+    font-weight: bolder;
+}
+.text-bold {
+    font-weight: bold;
+}
+.text-light {
+    font-weight: 300;
+}
+.text-size-default { 
+    font-size: 1em;
+}
+.text-size-1 {
+    font-size: 1.3em;
+}
+.text-size-2 {
+    font-size: 1.6em;
+}
+.text-size-3 {
+    font-size: 1.9em;
+}
+.text-size-4 {
+    font-size: 2.2em;
+}
+.text-size-5 {
+    font-size: 2.5em;
+}
+.text-size-6 {
+    font-size: 2.8em;
+}
+.text-size-7 {
+    font-size: 3.1em;
+}
+.text-size-8 {
+    font-size: 3.4em;
+}
+.text-size-9 {
+    font-size: 3.7em;
+}
+.text-size-10 {
+    font-size: 4em;
+}
+@media screen and (max-width:1024px){
+    .text-size-1 {
+        font-size: 1.2em;
+    }
+    .text-size-2 {
+        font-size: 1.4em;
+    }
+    .text-size-3 {
+        font-size: 1.6em;
+    }
+    .text-size-4 {
+        font-size: 1.8em;
+    }
+    .text-size-5 {
+        font-size: 2em;
+    }
+    .text-size-6 {
+        font-size: 2.2em;
+    }
+    .text-size-7 {
+        font-size: 2.4em;
+    }
+    .text-size-8 {
+        font-size: 2.6em;
+    }
+    .text-size-9 {
+        font-size: 2.8em;
+    }
+    .text-size-10 {
+        font-size: 2.85em;
+    }
+}
+@media screen and (max-width:800px){
+    .text-size-1 {
+        font-size: 1.1em;
+    }
+    .text-size-2 {
+        font-size: 1.2em;
+    }
+    .text-size-3 {
+        font-size: 1.3em;
+    }
+    .text-size-4 {
+        font-size: 1.4em;
+    }
+    .text-size-5 {
+        font-size: 1.5em;
+    }
+    .text-size-6 {
+        font-size: 1.6em;
+    }
+    .text-size-7 {
+        font-size: 1.7em;
+    }
+    .text-size-8 {
+        font-size: 1.8em;
+    }
+    .text-size-9 {
+        font-size: 1.9em;
+    }
+    .text-size-10 {
+        font-size: 2em;
+    }
+}
+@media screen and (max-width:600px){
+    .text-size-1 {
+        font-size: 1.15em;
+    }
+    .text-size-2 {
+        font-size: 1.2em;
+    }
+    .text-size-3 {
+        font-size: 1.25em;
+    }
+    .text-size-4 {
+        font-size: 1.3em;
+    }
+    .text-size-5 {
+        font-size: 1.35em;
+    }
+    .text-size-6 {
+        font-size: 1.4em;
+    }
+    .text-size-7 {
+        font-size: 1.45em;
+    }
+    .text-size-8 {
+        font-size: 1.5em;
+    }
+    .text-size-9 {
+        font-size: 1.55em;
+    }
+    .text-size-10 {
+        font-size: 1.6em;
+    }
+}
+@media screen and (max-width:500px){
+    .text-size-1 {
+        font-size: 10px;
+    }
+    .text-size-2 {
+        font-size: 11px;
+    }
+    .text-size-3 {
+        font-size: 12px;
+    }
+    .text-size-4 {
+        font-size: 13px;
+    }
+    .text-size-5 {
+        font-size: 14px;
+    }
+    .text-size-6 {
+        font-size: 15px;
+    }
+    .text-size-7 {
+        font-size: 16px;
+    }
+    .text-size-8 {
+        font-size: 17px;
+    }
+    .text-size-9 {
+        font-size: 18px;
+    }
+    .text-size-10 {
+        font-size: 19px;
+    }
+}
+@media screen and (max-width:320px){
+    .text-size-1 {
+        font-size: 5px;
+    }
+    .text-size-2 {
+        font-size: 6px;
+    }
+    .text-size-3 {
+        font-size: 7px;
+    }
+    .text-size-4 {
+        font-size: 8px;
+    }
+    .text-size-5 {
+        font-size: 9px;
+    }
+    .text-size-6 {
+        font-size: 10px;
+    }
+    .text-size-7 {
+        font-size: 11px;
+    }
+    .text-size-8 {
+        font-size: 12px;
+    }
+    .text-size-9 {
+        font-size: 13px;
+    }
+    .text-size-10 {
+        font-size: 14px;
+    }
+}
+.text-centered {
+    text-align: center;
+}
+.text-color-black { 
+	color: black;
+}
+.text-color-white {
+	color: white;
+}
+.text-color-asbestos { 
+	color: #7f8c8d; 
+}
+.text-color-concrete { 
+	color: #95a5a6; 
+}
+.text-color-clouds { 
+	color: #ecf0f1; 
+}
+.text-color-silver { 
+	color: #bdc3c7; 
+}
+.text-color-midnight { 
+	color: #2c3e50; 
+}
+.text-color-asphalt { 
+	color: #34495e; 
+}
+.text-color-amethyst { 
+	color: #9b59b6; 
+}
+.text-color-wisteria { 
+	color: #8e44ad; 
+}
+.text-color-pomegranate { 
+	color: #c0392b; 
+}
+.text-color-alizarin { 
+	color: #e74c3c; 
+}
+.text-color-belize { 
+	color: #2980b9; 
+}
+.text-color-river { 
+	color: #3498db; 
+}
+.text-color-pumpkin { 
+	color: #d35400; 
+}
+.text-color-carrot { 
+	color: #e67e22; 
+}
+.text-color-nephritis { 
+	color: #27ae60; 
+}
+.text-color-emerald { 
+	color: #2ecc71; 
+}
+.text-color-orange { 
+	color: #f39c12; 
+}
+.text-color-sun { 
+	color: #f1c40f; 
+}
+.text-color-green { 
+	color: #16a085; 
+}
+.text-color-turquoise { 
+	color: #1abc9c; 
+}
+.text-hint {
+    opacity: 0;
+    font-size: 13px;
+    color: #bdc3c7;
+    float: right;
+    font-weight: 100;
+    -webkit-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+.text-hint-container:hover .text-hint {
+    opacity: 1;
+}
